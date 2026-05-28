@@ -2,138 +2,137 @@
 
 > Use this file when building any section that contains text.
 > Paste this alongside 00-master-prompt.md when working on copy-heavy sections.
-> Replace every [BRACKET] with your real content. Delete instructions in italics once filled in.
 
 ---
 
 ## Pages
 
-> *List every page this site needs. For each one, write one sentence describing what it must achieve.*
-
-| Page | Purpose |
-|------|---------|
-| Home | [e.g. "Capture attention and drive signups"] |
-| About | [e.g. "Build trust by explaining who we are and why we built this"] |
-| Pricing | [e.g. "Convert visitors with clear, simple plan options"] |
-| Blog | [e.g. "SEO traffic and thought leadership"] |
-| Contact | [e.g. "Let people reach us and book calls"] |
-
-*Add or remove rows as needed.*
+| Page | Route | Purpose |
+|------|-------|---------|
+| Home | `/` | Hook attention, establish anti-agency positioning, drive to discovery call and audit CTA |
+| Services | `/services` | Detail all three offerings, help visitors self-identify which service fits them |
+| About | `/about` | Build trust through Nathan's story — experience on all sides of the marketing problem |
+| Work | `/work` | Showcase case studies and client results (content to be added post-launch) |
+| Contact | `/contact` | Book a discovery call via GHL calendar embed |
+| Privacy Policy | `/privacy` | Legal — standard, simple |
+| Terms of Service | `/terms` | Legal — standard, simple |
 
 ---
 
 ## Hero Section
 
-- **Headline:** [Your main headline — e.g. "The journal that gets out of your way"]
-- **Subheadline:** [Supporting line — 1–2 sentences expanding on the headline]
-- **Primary CTA button:** [e.g. "Start for free"]
-- **Secondary CTA (if any):** [e.g. "Watch a 2-min demo"]
-- **Hero visual description:** [Describe what should appear in the hero — illustration, photo, animation, mockup, abstract shape?]
+- **Headline:** "Marketing That Finally Works — Built as a System, Not a Gamble"
+- **Subheadline:** "Most small businesses are either burning out doing their own marketing or paying agencies that deliver nothing measurable. Systematic Marketing builds the strategy, the systems, and runs the execution — so your marketing compounds instead of disappearing."
+- **Primary CTA button:** "Book a Discovery Call"
+- **Secondary CTA:** "Get Your Free Marketing Audit →"
+- **Hero visual description:** Bold typographic treatment — no photography. The headline dominates. A subtle background texture or geometric grid element (very dark, barely visible) adds depth. The neon green accent appears only on the CTA button and a key word in the headline (e.g., "System" or "Works").
 
 ---
 
 ## Value Propositions
 
-> *3–5 reasons someone should choose you. Each one needs a title and 1–2 sentence description.*
+1. **Systems, Not Campaigns** — We don't run one-off campaigns. We design and build automated marketing infrastructure that generates leads consistently — even when you're not thinking about it.
 
-1. **[Title]** — [Description]
-2. **[Title]** — [Description]
-3. **[Title]** — [Description]
-4. **[Title]** — [Description]
-5. **[Title]** — [Description]
+2. **Strategy First, Always** — Before touching a single ad or email, we map your entire business and marketing situation. Every tactic connects back to a clear goal with measurable outcomes.
+
+3. **Senior Expertise, No Agency Overhead** — You get a marketing leader with years of experience across agencies and in-house teams — without paying for a big agency's account managers, overhead, and markups.
+
+4. **Done-For-You, Truly** — We handle strategy, systems, copywriting, execution, and reporting. You make decisions; we do the work.
+
+5. **Results You Can Measure** — No vanity metrics. We tie everything back to leads, calls, and revenue. You'll always know exactly what your marketing is doing.
 
 ---
 
-## Features Section
+## Features / Services Section
 
-> *List the key features. For each: name, one-line description, and optional icon suggestion.*
+> These are the three core services. Each needs a title, one-line hook, and 2–3 sentence description.
 
-| Feature Name | Description | Icon Suggestion |
-|-------------|-------------|-----------------|
-| [Feature 1] | [What it does and why it matters] | [e.g. lightning bolt] |
-| [Feature 2] | [What it does and why it matters] | [e.g. lock] |
-| [Feature 3] | [What it does and why it matters] | [e.g. chart] |
+| Service | Hook | Description |
+|---------|------|-------------|
+| Business & Marketing Strategy | "Know exactly where to focus." | We audit your current marketing, identify the gaps, and build a custom roadmap that connects every tactic to your actual business goals. No more guessing — you'll have a clear plan and the reasoning behind it. |
+| Custom Marketing Systems Design | "Build once. Run forever." | We design and build automated marketing systems — lead capture, CRM setup, email sequences, nurture flows, and follow-up automation — tailored to your business. Systems that qualify leads and keep your pipeline moving without manual work. |
+| Ongoing Marketing Services | "A senior marketer on your team, without the full-time cost." | Fractional CMO leadership and/or full-service execution on a retainer. Strategy, content, paid ads, email marketing, and performance reporting — handled by Nathan and his team, aligned to your growth targets. |
 
 ---
 
 ## Social Proof
 
-> *The more specific, the more convincing. Real numbers beat vague claims every time.*
+> **Note:** Client testimonials and case study results to be added post-launch. Structure the section now with placeholder slots — minimum 3 testimonial cards and a results/stats bar.
 
-- **Stat 1:** [e.g. "10,000+ users in 3 months"]
-- **Stat 2:** [e.g. "4.9 stars on Product Hunt"]
-- **Stat 3:** [e.g. "$2M+ processed"]
+**Placeholder stat structure (replace with real data):**
+- **Stat 1:** [X]+ small businesses served
+- **Stat 2:** [X]% average increase in qualified leads
+- **Stat 3:** [X] years of combined marketing experience
 
-**Testimonials:**
-
-> *Provide at least 2–3. Format: quote, name, title/context.*
-
-1. "[Quote]" — [Name], [Title or context]
-2. "[Quote]" — [Name], [Title or context]
-3. "[Quote]" — [Name], [Title or context]
-
-**Logos / Brand names to display:** [List companies, publications, or partners]
-
----
-
-## Pricing Section
-
-> *If applicable. Describe each plan clearly.*
-
-| Plan | Price | Who it's for | What's included |
-|------|-------|-------------|-----------------|
-| [Free / Starter] | $[X]/mo | [Who] | [Features] |
-| [Pro] | $[X]/mo | [Who] | [Features] |
-| [Enterprise] | Custom | [Who] | [Features] |
-
-- **Pricing CTA (each plan):** [e.g. "Get started free", "Start 14-day trial", "Contact sales"]
-- **Billing toggle needed?** [Yes (monthly/annual) / No]
-
----
-
-## FAQ Section
-
-> *Add 5–8 questions your users actually ask. These reduce support and increase conversions.*
-
-1. **Q:** [Question] **A:** [Answer]
-2. **Q:** [Question] **A:** [Answer]
-3. **Q:** [Question] **A:** [Answer]
-4. **Q:** [Question] **A:** [Answer]
-5. **Q:** [Question] **A:** [Answer]
+**Testimonial slots:** Build 3 cards. Leave copy as clearly marked placeholders — e.g., `[CLIENT TESTIMONIAL — TO BE ADDED]` — so Nathan can swap in real quotes without rebuilding the section.
 
 ---
 
 ## About / Story Section
 
-> *2–3 paragraphs. Why did you build this? Who built it? What do you believe?*
+> **Who is Nathan Miller:**
 
-[Paste or write your about copy here. If you don't have it yet, write a brief like:
-"Write 2 paragraphs for the about section. We are [describe company]. We built this because [reason]. Our values are [values]. Tone: [conversational/authoritative/warm]."]
+Nathan Miller has been on every side of the marketing problem. He's been the small business owner staring at an empty pipeline wondering what's not working. He's worked inside agencies watching clients spend money on campaigns with no system behind them. He's been the in-house marketing leader building teams and strategies from scratch at growing companies.
+
+Systematic Marketing exists because Nathan kept seeing the same pattern: good businesses with real products and services, failing to grow because their marketing had no backbone. Not because they lacked budget or ideas — because they had no *system*.
+
+Systematic Marketing's approach is different by design. We don't just run campaigns. We build the infrastructure first — the strategy, the automation, the pipeline — and then execute within it. Every tactic has a purpose. Every dollar has accountability. And every client knows exactly what their marketing is doing and why.
+
+**Nathan's credentials to weave in:**
+- Multiple businesses founded and operated as a small business owner
+- Agency background — knows how agencies work and where they fail clients
+- Years of in-house marketing leadership experience
+- Specializes in marketing systems design and fractional CMO engagements
 
 ---
 
 ## Contact Section
 
-- **Headline:** [e.g. "Let's talk"]
-- **Subtext:** [e.g. "We reply within 24 hours on business days"]
-- **Form fields needed:** [Name / Email / Message / Company / Phone — list only what you need]
-- **CTA button:** [e.g. "Send message"]
-- **Alternative contact info:** [Email address, Twitter handle, calendar link, etc.]
+- **Headline:** "Let's Talk About Your Marketing"
+- **Subtext:** "Book a 30-minute discovery call. We'll look at where you are, where you want to go, and whether Systematic Marketing is the right fit."
+- **Primary CTA:** Book a Discovery Call (GoHighLevel calendar embed)
+- **Secondary option:** Prefer email? Reach Nathan directly at [EMAIL TO BE ADDED]
+- **Form fields (if no calendar embed):** Name, Business name, Email, Phone, "What's your biggest marketing challenge right now?" (text area)
 
 ---
 
 ## Footer
 
-- **Tagline (optional):** [Short brand line to repeat in footer]
-- **Footer nav links:** [List them — e.g. Home, About, Pricing, Blog, Privacy, Terms]
-- **Social links:** [Twitter/X, LinkedIn, GitHub, Instagram — list with URLs]
-- **Newsletter signup?** [Yes / No — if yes, describe what they're signing up for]
-- **Legal copy:** [e.g. "© 2025 [Company Name]. All rights reserved."]
+- **Tagline:** "Marketing built as a system. Results built on purpose."
+- **Footer nav links:** Services, About, Work, Contact, Privacy Policy, Terms of Service
+- **Social links:** [To be added — LinkedIn preferred for B2B consulting]
+- **Newsletter signup:** No — not at launch
+- **Legal copy:** © 2025 Systematic Marketing. All rights reserved.
+- **Domain note:** goSystematic.com
+
+---
+
+## Transitional CTA — Marketing Audit
+
+> This CTA appears multiple times throughout the site: after the hero, mid-page, and before the footer CTA section.
+
+- **Headline:** "Not Ready to Book a Call Yet?"
+- **Subtext:** "Take our free marketing audit. Answer a few questions about your current marketing and get an instant score with your biggest gaps and priorities identified."
+- **Button text:** "Get Your Free Marketing Audit"
+- **Button destination:** [Audit app URL — to be added]
+- **Note to AI:** This is a transitional/secondary CTA for visitors who aren't ready to book a call. Always position it below or alongside the primary "Book a Discovery Call" CTA — never replace the primary.
 
 ---
 
 ## SEO & Meta
 
-- **Page title tag:** [e.g. "Hollow — The minimalist journaling app"]
-- **Meta description:** [1–2 sentences, under 160 characters]
-- **OG image description:** [Describe what the social share image should look like]
+- **Page title tag:** "Systematic Marketing — Done-for-You Marketing Systems for Small Businesses"
+- **Meta description:** "Systematic Marketing builds custom marketing systems for small businesses. Strategy, automation, and senior-level execution — without the agency overhead. Book a free discovery call."
+- **OG image description:** Dark background, "Systematic Marketing" wordmark in Syne Bold (white), tagline below in Plus Jakarta Sans, neon green `#B8FF47` accent element. Clean, bold, no photos.
+
+---
+
+## Key Messaging Rules
+
+> These apply to every piece of copy on this site.
+
+- Speak to the frustration first — acknowledge that they've probably tried things that didn't work
+- Use plain language — no marketing jargon, no buzzwords like "synergy" or "leverage"
+- Be direct and specific — vague claims lose trust; specifics build it
+- Position against the alternative (DIY chaos + bad agencies), not just for the service
+- The tone is confident, not arrogant — like a trusted advisor who's seen it all

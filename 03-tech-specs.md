@@ -5,40 +5,35 @@
 
 ---
 
-## Framework & Output
+## Platform & Output
 
-- **Framework:** [HTML/CSS/JS (vanilla) / React / Next.js / Astro / Vue / Svelte / No preference]
-- **Output format:** [Single HTML file / Multi-file component structure / Full project scaffold]
-- **CSS approach:** [Embedded `<style>` / CSS file / Tailwind / CSS Modules / Styled Components]
-- **JavaScript approach:** [Vanilla JS / TypeScript / JSX / No preference]
-- **Package manager:** [npm / yarn / pnpm / None (no build step)]
+- **Platform:** GoHighLevel AI Studio (HighLevel's built-in vibe coder / website builder)
+- **Output format:** Pages and sections built within GoHighLevel's website builder
+- **CSS approach:** Whatever GoHighLevel AI Studio outputs — inline styles or embedded CSS within the GHL builder
+- **Framework note:** This is NOT a Next.js or standalone React project. All code lives inside GoHighLevel's platform.
 
 ---
 
 ## Hosting & Deployment
 
-- **Hosting target:** [Vercel / Netlify / GitHub Pages / Cloudflare Pages / AWS / Other: specify]
-- **Custom domain:** [Yes — [yourdomain.com] / No / Not yet]
-- **CI/CD needed:** [Yes — deploy on push to main / No / Not yet]
-- **Environment:** [Static only / Serverless functions needed / Full backend needed]
-- **Build command (if known):** [e.g. `npm run build` / `next build` / None]
+- **Hosting:** GoHighLevel (built-in hosting)
+- **Domain:** goSystematic.com (connected to GoHighLevel)
+- **CI/CD:** Not applicable — GHL handles publishing; changes go live via GHL's publish flow
+- **Environment:** Static pages with GoHighLevel dynamic elements (forms, calendar, CRM tracking)
 
 ---
 
-## Integrations
+## GoHighLevel Integrations
 
-> *For each integration, specify what it does and any relevant account/config details.*
+> All integrations are native to GoHighLevel — no third-party accounts needed.
 
 | Integration | Purpose | Notes |
 |-------------|---------|-------|
-| [e.g. Stripe] | [Payments] | [Test mode / Live mode / Which products] |
-| [e.g. Mailchimp] | [Email list] | [Which audience ID] |
-| [e.g. Supabase] | [Database / Auth] | [Project URL needed] |
-| [e.g. Google Analytics] | [Analytics] | [Measurement ID: G-XXXXXXX] |
-| [e.g. Calendly] | [Booking] | [Embed or link] |
-| [e.g. Formspree] | [Form handling] | [Form ID: xxxxxxx] |
-
-*Add rows as needed. Remove rows that don't apply.*
+| GHL Calendar | Discovery call booking | Embed GHL calendar widget on Contact page and in hero CTA modal or section |
+| GHL Forms | Contact / inquiry forms | Use GHL native forms — all submissions flow into GHL CRM pipeline |
+| GHL CRM | Lead management | All form submissions and call bookings tag contacts in GHL automatically |
+| GHL Tracking | Analytics / attribution | Use GHL's built-in tracking and attribution for all form/calendar conversions |
+| Marketing Audit Tool | Lead qualification / transitional CTA | External app (URL TBD) — link to it as a CTA throughout the site; placeholder for now |
 
 ---
 
@@ -46,78 +41,60 @@
 
 | Form | Fields | Where Data Goes | Notes |
 |------|--------|----------------|-------|
-| [e.g. Contact form] | [Name, Email, Message] | [Formspree / email] | [Any validation rules] |
-| [e.g. Newsletter] | [Email only] | [Mailchimp] | [Double opt-in?] |
-| [e.g. Waitlist] | [Name, Email] | [Supabase table] | [Confirmation email?] |
+| Discovery call booking | Via GHL calendar | GHL CRM — tagged "Discovery Call" | Calendar embed, not a manual form |
+| Contact / general inquiry | Name, Email, Message, Business name | GHL CRM — tagged "Contact Inquiry" | Use GHL native form embed |
+| Marketing audit entry | Email (minimum) | GHL CRM — tagged "Audit Lead" | Links to external audit app |
 
 ---
 
 ## Authentication
 
-- **Auth needed:** [Yes / No]
-- **If yes — auth method:** [Email + password / Magic link / Google OAuth / GitHub OAuth / Multiple]
-- **Auth provider:** [Supabase / Firebase / Auth0 / NextAuth / Clerk / Custom]
-- **Protected pages/routes:** [List which pages require login]
-- **User roles:** [Single role / Admin + User / Custom: describe]
+- **Auth needed:** No — public marketing site only; no login or protected pages
 
 ---
 
 ## CMS & Content Management
 
-- **CMS needed:** [Yes / No]
-- **Who updates content:** [Developer only / Non-technical editor / Both]
-- **CMS preference:** [Sanity / Contentful / Notion / Prismic / Strapi / Markdown files / None]
-- **Content types managed via CMS:** [Blog posts / Team members / Products / Testimonials / All / None]
-- **Localization / multi-language:** [Yes — languages: [list] / No]
+- **CMS:** GoHighLevel's built-in page editor
+- **Who updates content:** Nathan Miller (developer-owner)
+- **Blog:** Not in scope for launch — add in Phase 2 if needed
+- **Localization:** English only
 
 ---
 
 ## Performance & SEO
 
-- **SEO priority:** [Critical (content/blog site) / Important (marketing site) / Low (internal tool)]
-- **Core Web Vitals target:** [LCP < 2.5s / FID < 100ms / CLS < 0.1 — or "best effort"]
-- **Lighthouse score goal:** [90+ / 80+ / Not a priority]
-- **Image optimization:** [Yes — use next/image or similar / Manual / Not needed]
-- **Sitemap needed:** [Yes / No]
-- **Robots.txt needed:** [Yes / No]
-- **Structured data / schema markup:** [Yes — type: [Article/Product/FAQ/etc] / No]
+- **SEO priority:** Important — marketing site needs to rank for local/niche terms
+- **Core Web Vitals:** Best effort within GHL's platform constraints
+- **Lighthouse target:** 80+ where possible
+- **Image optimization:** Compress all images before uploading to GHL (use TinyPNG — target < 300kb per image)
+- **Sitemap:** Yes — use GoHighLevel's built-in sitemap generation
+- **Robots.txt:** Yes — GHL generates automatically
+- **Structured data:** Organization schema on homepage, Service schema on services page
+
+**Target SEO keywords (work into copy naturally):**
+- "marketing systems for small businesses"
+- "fractional CMO for small business"
+- "done for you marketing"
+- "marketing strategy small business [city if applicable]"
+- "marketing consultant for small business"
 
 ---
 
 ## Browser & Device Support
 
-- **Minimum browser support:** [Last 2 versions / IE11 / Modern only (Chrome/Firefox/Safari/Edge)]
-- **Mobile breakpoints:**
-  - Mobile: [< 768px]
-  - Tablet: [768px – 1024px]
-  - Desktop: [> 1024px]
-  - Wide: [> 1440px — optional]
-- **Accessibility target:** [WCAG AA / WCAG AAA / Best effort / Not specified]
-- **Dark mode support:** [System preference / Manual toggle / Light only / Dark only]
-
----
-
-## Environment Variables Needed
-
-> *List variable names only — never put actual values in this file.*
-
-```
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
-STRIPE_PUBLIC_KEY=
-MAILCHIMP_API_KEY=
-GOOGLE_ANALYTICS_ID=
-```
-
-*Keep actual values in `.env.local` (never commit to GitHub).*
+- **Minimum browser support:** Modern only — last 2 versions of Chrome, Firefox, Safari, Edge
+- **Mobile breakpoints:** Follow GoHighLevel's responsive system; ensure all sections look excellent at 375px, 768px, and 1280px+
+- **Accessibility target:** WCAG AA best effort — sufficient color contrast (neon green `#B8FF47` on black `#0A0A0A` passes), keyboard navigable CTAs
+- **Dark mode:** Dark only — no light mode toggle needed
 
 ---
 
 ## Known Constraints
 
-> *Anything the AI must know that doesn't fit above.*
-
-- [e.g. "Must work without JavaScript for core content (progressive enhancement)"]
-- [e.g. "No external API calls on the client — proxy through serverless functions"]
-- [e.g. "Bundle size must stay under 200kb"]
-- [e.g. "No paid npm packages — open source only"]
+- Build entirely within GoHighLevel AI Studio — do not suggest external hosting or deployment pipelines
+- Calendar and forms must use GoHighLevel's native embeds — no Calendly, Typeform, or third-party form tools
+- No backend server code — everything is handled by GoHighLevel's platform
+- The marketing audit tool is external — link to it, do not attempt to rebuild it
+- All tracking and analytics should go through GoHighLevel's built-in attribution system
+- Keep pages fast — avoid heavy animations or large uncompressed images
