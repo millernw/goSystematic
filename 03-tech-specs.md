@@ -8,7 +8,6 @@
 ## Platform & Output
 
 - **Platform:** GoHighLevel AI Studio (HighLevel's built-in vibe coder / website builder)
-- **Output format:** Pages and sections built within GoHighLevel's website builder
 - **CSS approach:** Whatever GoHighLevel AI Studio outputs — inline styles or embedded CSS within the GHL builder
 - **Framework note:** This is NOT a Next.js or standalone React project. All code lives inside GoHighLevel's platform.
 
